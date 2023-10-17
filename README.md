@@ -14,7 +14,6 @@ zone "arjuna.e05.com" {
 	type master;
 	file "/etc/bind/jarkom/arjuna.e05.com";
 };
-![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2019.22.58_45b7f1a6.jpg)
 ![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2018.57.50_6472720c.jpg)
 lalu buatkan folder jarkom dengan command mkdir /etc/bind/jarkom
 ![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2019.22.58_45b7f1a6.jpg)
@@ -22,7 +21,7 @@ Copykan file db.local pada path /etc/bind ke dalam folder jarkom yang baru saja 
 cp /etc/bind/db.local /etc/bind/jarkom/arjuna.e05.com
 kemudian buka file arjuna.e05.com dan edit ip sesuai dengan kelompok masing masing
 nano /etc/bind/jarkom/arjuna.e05.com
-![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2019.06.30_afb9872e.jpg)
+![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2019.23.23_b71a6c54.jpg)
 setelah itu restart bind9 dengan command service bind9 restart
 ![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2019.08.16_75df1035.jpg)
 
