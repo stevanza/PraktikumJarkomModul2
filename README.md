@@ -36,7 +36,7 @@ setelah itu restart bind9 dengan command service bind9 restart
 
 ![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2019.08.16_75df1035.jpg)
 
-4. Dengan cara yang sama seperti soal nomor 2, buatlah website utama dengan akses ke abimanyu.yyy.com dan alias www.abimanyu.yyy.com.
+3. Dengan cara yang sama seperti soal nomor 2, buatlah website utama dengan akses ke abimanyu.yyy.com dan alias www.abimanyu.yyy.com.
 buka web console yudhistira dan jalankan command  apt-get update
 setelah melakukan update install aplikasi bind9 dengan command  apt-get install bind9 -y
 
