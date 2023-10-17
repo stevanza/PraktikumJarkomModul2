@@ -15,5 +15,9 @@ zone "arjuna.e05.com" {
 	file "/etc/bind/jarkom/arjuna.e05.com";
 };
 ![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2018.57.50_6472720c.jpg)
-
-![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2019.00.05_704e524c.jpg)
+lalu buatkan folder jarkom dengan command mkdir /etc/bind/jarkom
+Copykan file db.local pada path /etc/bind ke dalam folder jarkom yang baru saja dibuat dan ubah namanya menjadi arjuna.e05.com
+cp /etc/bind/db.local /etc/bind/jarkom/arjuna.e05.com
+kemudian buka file arjuna.e05.com dan edit ip sesuai dengan kelompok masing masing
+nano /etc/bind/jarkom/arjuna.e05.com
+![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2019.06.30_afb9872e.jpg)
