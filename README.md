@@ -22,6 +22,7 @@ cp /etc/bind/db.local /etc/bind/jarkom/arjuna.e05.com
 kemudian buka file arjuna.e05.com dan edit ip sesuai dengan kelompok masing masing
 nano /etc/bind/jarkom/arjuna.e05.com
 ![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2019.23.23_b71a6c54.jpg)
+![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2019.06.30_afb9872e.jpg)
 setelah itu restart bind9 dengan command service bind9 restart
 ![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2019.08.16_75df1035.jpg)
 
