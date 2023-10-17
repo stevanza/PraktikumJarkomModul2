@@ -6,7 +6,9 @@
 2. Buatlah website utama pada node arjuna dengan akses ke arjuna.yyy.com dengan alias www.arjuna.yyy.com dengan yyy merupakan kode kelompok.
 Buka Arjuna dan jalankan command  apt-get update
 ![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2018.52.33_e02e7588.jpg)
+
 setelah melakukan update install aplikasi bind9 pada Arjuna
+
 ![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2018.55.55_2408d531.jpg)
 lakukan perintah pada Arjuna menggunakan command nano /etc/bind/named.conf.local
 isikan konfigurasi domain arjuna.e05.com dengan syntax
@@ -26,7 +28,7 @@ nano /etc/bind/jarkom/arjuna.e05.com
 setelah itu restart bind9 dengan command service bind9 restart
 ![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2019.08.16_75df1035.jpg)
 
-3. Dengan cara yang sama seperti soal nomor 2, buatlah website utama dengan akses ke abimanyu.yyy.com dan alias www.abimanyu.yyy.com.
+4. Dengan cara yang sama seperti soal nomor 2, buatlah website utama dengan akses ke abimanyu.yyy.com dan alias www.abimanyu.yyy.com.
 buka web console yudhistira dan jalankan command  apt-get update
 setelah melakukan update install aplikasi bind9 dengan command  apt-get install bind9 -y
 ![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2019.11.38_f8ea48cb.jpg)
