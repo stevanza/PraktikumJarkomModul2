@@ -19,7 +19,9 @@ zone "arjuna.e05.com" {
 };
 
 ![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2018.57.50_6472720c.jpg)
+
 lalu buatkan folder jarkom dengan command mkdir /etc/bind/jarkom
+
 ![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2019.22.58_45b7f1a6.jpg)
 Copykan file db.local pada path /etc/bind ke dalam folder jarkom yang baru saja dibuat dan ubah namanya menjadi arjuna.e05.com
 cp /etc/bind/db.local /etc/bind/jarkom/arjuna.e05.com
