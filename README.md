@@ -8,6 +8,12 @@ Buka Arjuna dan jalankan command  apt-get update
 ![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2018.52.33_e02e7588.jpg)
 setelah melakukan update install aplikasi bind9 pada Arjuna
 ![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2018.55.55_2408d531.jpg)
+lakukan perintah pada Arjuna menggunakan command nano /etc/bind/named.conf.local
+isikan konfigurasi domain arjuna.e05.com dengan syntax
+zone "arjuna.e05.com" {
+	type master;
+	file "/etc/bind/jarkom/arjuna.e05.com";
+};
 ![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2018.57.50_6472720c.jpg)
 
 
