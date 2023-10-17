@@ -42,6 +42,7 @@ zone "abimanyu.305.com" {
 tulis command mkdir /etc/bind/jarkom
 Copykan file db.local pada path /etc/bind ke dalam folder jarkom yang baru saja dibuat dan ubah namanya menjadi abimanyu.e05.com dengan command
 cp /etc/bind/db.local /etc/bind/jarkom/jarkom2022.com
+kemudian buka file abimayu.e05.com dan edit ip sesuai dengan kelompok
 ![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2019.15.03_ab855e2a.jpg)
 ![soal](https://github.com/stevanza/PraktikumJarkomModul2/blob/main/WhatsApp%20Image%202023-10-17%20at%2019.17.27_a64e2106.jpg)
 setelah itu restart bind9 dengan command service bind9 restart
